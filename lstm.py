@@ -14,3 +14,7 @@ def sigmoid_derivative(values):
 
 def tanh_derivative ( values):
     return 1.- values**2
+
+
+def create_rand_array(a,b,*args):
+    return np.random.rand(*args) * (b-a) +a
