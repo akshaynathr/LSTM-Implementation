@@ -18,3 +18,14 @@ def tanh_derivative ( values):
 
 def create_rand_array(a,b,*args):
     return np.random.rand(*args) * (b-a) +a
+
+
+""" 
+    Create class LSTMNode as main class
+    LSTMParam stores the parameters required for each state
+    LSTMState Class stores the state values.
+    LSTMNetwork has functions to support creation of LSTM Networks
+
+
+"""
+
